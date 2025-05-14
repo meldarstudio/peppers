@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Speedy gonzales",
+    "description": "One taco, one enchilada with red or green sauce on top. Served with your choice of rice or beans",
+    "slug": "speedy-gonzales",
+    "price": 850
+  },
+  {
+    "name": "Lunch chimichanga",
+    "slug": "lunch-chimichanga",
+    "description": "One flour tortilla filled with beef tips or chicken topped with cheese sauce and mild ranchero sauce. Served with lettuce, tomato, sour cream, Spanish rice, and beans",
+    "price": {
+      "beef": 975,
+      "chicken": 975,
+      "shrimp": 1199
+    }
+  },
+  {
+    "name": "Huevos rancheros",
+    "slug": "huevos-rancheros",
+    "description": "Three ranch style eggs (over hard) with sauce on top. Served with Spanish rice, beans, and tortillas",
+    "price": 899
+  },
+  {
+    "name": "Huevos con chorizo",
+    "slug": "huevos-con-chorizo",
+    "description": "Three scrambled eggs with Mexican sausage. Served with Spanish rice, beans, and three flour tortillas",
+    "price": 925
+  },
+  {
+    "name": "El rancho",
+    "slug": "el-rancho",
+    "description": "One chile relleno, one taco, beans, and cream salad",
+    "price": 1050
+  },
+  {
+    "name": "Burrito especial",
+    "slug": "burrito-especial",
+    "description": "One burrito, rice, and beans",
+    "price": 799
+  },
+  {
+    "name": "Burrito and enchilada",
+    "slug": "burrito-and-enchilada",
+    "description": "One burrito, rice, and beans",
+    "price": 899
+  },
+  {
+    "name": "Burrito verde",
+    "slug": "burrito-verde",
+    "description": "Pork tips with green sauce, rice, or beans",
+    "price": 950
+  },
+  {
+    "name": "Quesadilla especial",
+    "description": "One shredded chicken or beef quesadilla, rice, and beans",
+    "slug": "quesadilla-especial",
+    "price": 899
+  },
+  {
+    "name": "El burrito alteño",
+    "slug": "el-burrito-alteno",
+    "description": "One quesadilla, Mexican rice, and beans",
+    "price": 850
+  },
+  {
+    "name": "Fajita lunch special",
+    "slug": "fajita-lunch-special",
+    "description": "Your choice of grilled chicken or steak. Served with a side of rice, beans, sour cream salad, and three flour or corn tortillas",
+    "price": {
+      "chicken": 1025,
+      "steak": 1150,
+      "shrimp": 1350
+    }
+  },
+  {
+    "name": "Flautas",
+    "slug": "flautas",
+    "description": "Two flautas, one with chicken and one with beef. Served with a side of rice, beans, and our signature cream salad",
+    "price": 925
+  }
+]

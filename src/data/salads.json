@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Casa grande salad",
+    "slug": "peppers-salad",
+    "description": "Grilled chicken, steak, or shrimp, served on a bed of lettuce with tomatoes, shredded cheese, and slices of avocado",
+    "imgSrc": "/src/assets/menu/salad.webp",
+    "price": {
+      "chicken": 1175,
+      "steak": 1299,
+      "shrimp": 1499
+    }
+  },
+  {
+    "name": "Casa grande bowl",
+    "slug": "peppers-bowl",
+    "description": "Burrito bowl loaded with your choice of protein, black beans, rice, lettuce, sour cream, fresh jalapeños, pico de gallo and schredded cheese",
+    "price": {
+      "chicken": 1250,
+      "ground beef": 1250,
+      "grilled chicken": 1450,
+      "steak": 1600,
+      "pastor": 1600,
+      "shrimp": 1725
+    }
+  },
+  {
+    "name": "Chipotle bowl",
+    "slug": "chipotle-bowl",
+    "description": "Burrito bowl loaded with protein of your preference, with black beans, rice, lettuce, pico de gallo, and shredded cheese",
+    "price": {
+      "grilled chicken": 1450,
+      "steak": 1600,
+      "pastor": 1600,
+      "shrimp": 1725
+    }
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Guacamole dip",
+    "slug": "guacamole-dip",
+    "description": "Fresh avocado, tomatoes, onions, cilantro, and jalapeños",
+    "price": 575
+  },
+  {
+    "name": "Cheese dip",
+    "slug": "cheese-dip",
+    "description": "Melted cheese with chorizo (Mexican sausage)",
+    "price": 575
+  },
+  {
+    "name": "Bean dip",
+    "description": "Refried beans topped with cheese",
+    "slug": "bean-dip",
+    "price": 699
+  },
+  {
+    "name": "Queso fundido",
+    "slug": "queso-fundido",
+    "description": "Melted cheese with chorizo (Mexican sausage)",
+    "price": 825
+  },
+  {
+    "name": "Fiesta fries",
+    "slug": "fiesta-fries",
+    "description": "A bed of french fries with bacon and cheese sauce. Topped with your choice of protein and drizzled with sour cream and our homemade chipotle sauce",
+    "price": {
+      "chicken": 1175,
+      "steak": 1399
+    }
+  },
+  {
+    "name": "Quesadilla peppers",
+    "slug": "quesadilla-peppers",
+    "description": "Steak, chicken, chorizo (Mexican sausage), or vegetarian, topped with cheese in a grilled flour tortilla. Served with lettuce, pico de gallo, and sour cream",
+    "price": {
+      "chicken": 1275,
+      "steak": 1425,
+      "pastor": 1425,
+      "shrimp": 1525
+    }
+  },
+  {
+    "name": "Appetizer peppers",
+    "slug": "appetizer-peppers",
+    "description": "Samples of taquitos, tostadas, jalapeño poppers, and cheese quesadilla on a bed of lettuce. Served with sour cream and tomatoes",
+    "price": 1325
+  },
+  {
+    "name": "Jalapeño poppers",
+    "slug": "jalapeno-poppers",
+    "description": "Six jalapeño stuffed with cheddar cheese. Served on a bed of lettuce with sour cream and tomatoes on top",
+    "price": 875
+  },
+  {
+    "name": "Wings",
+    "slug": "wings",
+    "description": "Ten wings tossed in your sauce of choice: plain, BBQ, buffalo, or mango habanero. Served with celery, blue cheese or ranch dressing",
+    "imgSrc": "/src/assets/menu/chicken_wings.webp",
+    "price": 1499
+  },
+  {
+    "name": "Street corn",
+    "slug": "street-corn",
+    "description": "Grilled sweet corn on the cob. Topped with our homemade chipotle sauce, mayo, parmesan cheese, and tajin",
+    "price": 900
+  }
+]

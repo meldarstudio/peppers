@@ -1,0 +1,50 @@
+---
+import { categories } from "~/constants";
+---
+
+<menu-toc class="sticky top-0 h-fit bg-stone-100 md:top-4">
+  <ul
+    class="scroll-container flex h-full overflow-scroll text-stone-600 md:w-40 md:flex-col lg:w-56"
+  >
+    {
+      categories.map((category) => (
+        <li>
+          <a
+            class="block border-b border-b-stone-200 p-3 font-medium whitespace-nowrap aria-[current]:border-stone-900 aria-[current]:bg-stone-900 aria-[current]:text-stone-50 md:border-0 md:px-2 md:py-1"
+            href={"#" + category.slug}
+          >
+            {category.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</menu-toc>
+<script src="./menu-toc"></script>
+<style>
+  @media (max-width: 767px) {
+    .scroll-container::before,
+    .scroll-container::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 24px;
+      background: linear-gradient(to right, #f4f4f5, transparent);
+      z-index: 2;
+      opacity: 1; /* Initially hidden */
+      pointer-events: none; /* Prevent it from blocking clicks */
+    }
+
+    .scroll-container::before {
+      left: 0;
+      opacity: var(--fade-left, 0);
+    }
+
+    .scroll-container::after {
+      right: 0;
+      transform: rotate(180deg);
+      opacity: var(--fade-right, 0);
+    }
+  }
+</style>

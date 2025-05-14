@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Burritos mexicanos",
+    "slug": "burritos-mexicanos",
+    "description": "Two burritos: one chicken and beans and one beef tip and beans. Topped with a mild red sauce, shredded cheese, lettuce, tomato, and sour cream. Served with a side of rice",
+    "price": 1325
+  },
+  {
+    "name": "Burritos típicos",
+    "slug": "burritos-tipicos",
+    "description": "Two beef tip burritos topped with our homemade cheese. Served with a side of beans and cream salad",
+    "price": 1250
+  },
+  {
+    "name": "Burrito chipotle",
+    "slug": "burrito-chipotle",
+    "description": "Extra large flour tortilla stuffed with your choice of protein, rice, black beans, lettuce, sour cream, and pico de gallo. Topped with our homemade chipotle sauce.",
+    "price": {
+      "veggies": 1525,
+      "chicken": 1499,
+      "steak": 1650,
+      "pastor": 1650,
+      "shrimp": 1750
+    }
+  },
+  {
+    "name": "Burrito california",
+    "slug": "burrito-california",
+    "description": "Extra large flour tortilla stuffed with your choice of protein with refried beans, rice, lettuce, pico de gallo, and sour cream. Topped with our homemade cheese sauce",
+    "price": {
+      "veggies": 1525,
+      "chicken": 1499,
+      "steak": 1650,
+      "pastor": 1650,
+      "shrimp": 1750
+    }
+  },
+  {
+    "name": "Burrito peppers",
+    "slug": "burrito-peppers",
+    "description": "Extra large flour tortilla stuffed with your choice of meat, black beans, rice, lettuce, sour cream, fresh jalapeños, and pico de gallo. Covered with melted cheese, red and green sauce",
+    "imgSrc": "/src/assets/popular/burritos.webp",
+    "price": {
+      "veggies": 1525,
+      "chicken": 1499,
+      "steak": 1650,
+      "pastor": 1650,
+      "shrimp": 1750
+    }
+  },
+  {
+    "name": "Burrito popeye's",
+    "slug": "burrito-popeyes",
+    "description": "Burrito stuffed with grilled chicken, grilled onions, and spinach, covered with melted cheese. Served with rice and beans on the side",
+    "price": 1325
+  },
+  {
+    "name": "Skillet burrito",
+    "slug": "skillet-burrito",
+    "description": "This burrito is loaded with protein of your preference, rice, beans, tomato, and lettuce. Topped with cheese, sour cream, chipotle and ranchero sauce",
+    "price": {
+      "chicken": 1525,
+      "steak": 1725,
+      "pastor": 1725,
+      "carnitas": 1725
+    }
+  }
+]

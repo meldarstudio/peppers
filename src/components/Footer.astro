@@ -1,0 +1,85 @@
+---
+import { navLinks, socialLinks } from "~/constants";
+import { Image } from "astro:assets";
+import logoImg from "~/assets/logo.webp";
+---
+
+<footer class="bg-stone-950 px-4 pt-12">
+  <div class="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-4">
+    <Image
+      class="mx-auto h-auto w-36"
+      src={logoImg}
+      format="webp"
+      loading="lazy"
+      alt="Restaurant logo"
+    />
+    <div>
+      <h2 class="font-semibold text-red-500">Links</h2>
+      <ul class="mt-3 flex flex-col gap-2 text-stone-400">
+        {
+          navLinks.map((link) => (
+            <li>
+              <a class="underline-offset-2 hover:underline" href={link.href}>
+                {link.name}
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a
+            class="underline-offset-2 hover:underline"
+            href="https://casarealvt.com/"
+          >
+            Casa Real
+          </a>
+        </li>
+        <li>
+          <a
+            class="underline-offset-2 hover:underline"
+            href="https://casaaztecavt.com/"
+          >
+            Casa Azteca
+          </a>
+        </li>
+        <li>
+          <a
+            class="underline-offset-2 hover:underline"
+            href="https://casagrandevt.com"
+          >
+            Casa Grande
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="font-semibold text-red-500">Socials</h2>
+      <ul class="mt-3 flex flex-col gap-2 text-stone-400">
+        {
+          Object.entries(socialLinks).map(([name, href]) => (
+            <li>
+              <a class="underline-offset-2 hover:underline" href={href}>
+                {name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+    <address class="text-stone-400 not-italic">
+      <h2 class="mb-3 font-semibold text-red-500">Address</h2>
+      22 Merchants Row<br />
+      Williston, VT 05495<br />
+      <h2 class="mt-6 mb-3 font-semibold text-red-500">Phone</h2>
+      +1 (802) 662-5632<br />
+      <h2 class="mt-6 mb-3 font-semibold text-red-500">Opening hours</h2>
+      Sun - Thur: 11am - 10pm<br />
+      Fri - Sat: 11am - 10:30pm<br />
+    </address>
+  </div>
+  <p class="mx-auto max-w-6xl py-6 text-xs text-stone-400">
+    Website built by <a
+      class="underline underline-offset-2 hover:text-red-500"
+      href="https://www.kevinzc.com/">@kevinzunigacuellar</a
+    >
+  </p>
+</footer>

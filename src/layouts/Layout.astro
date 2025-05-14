@@ -1,0 +1,53 @@
+---
+import "~/styles/global.css";
+import { defaultMeta } from "~/constants";
+import Navigation from "~/components/Navigation.astro";
+import Footer from "~/components/Footer.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = defaultMeta.title, description = defaultMeta.description } =
+  Astro.props;
+
+const ogImageURL = new URL(defaultMeta.ogImagePath, Astro.url.origin).href;
+---
+
+<!doctype html>
+<html
+  lang="en"
+  class="h-full w-full scroll-pt-14 md:scroll-pt-4 md:scroll-smooth"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={Astro.url} />
+    <link rel="icon" type="image/jpg" href="/favicon.jpg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:title" content={title} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={defaultMeta.title} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:alt" content="logo of the restaurant" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+    <meta name="twitter:image:alt" content="alt_description" />
+  </head>
+  <body class="relative h-full w-full bg-stone-100 antialiased">
+    <Navigation />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Macaroni and cheese",
+    "description": "Macaroni noodles with creamy cheese sauce",
+    "slug": "macaroni-and-cheese",
+    "price": 850
+  },
+  {
+    "name": "Chicken tenders",
+    "description": "Breaded chicken tenders",
+    "slug": "chicken-tenders",
+    "price": 850
+  },
+  {
+    "name": "Cheeseburger",
+    "description": "Cheeseburger with lettuce, tomato, and pickles",
+    "slug": "cheeseburger",
+    "price": 850
+  },
+  {
+    "name": "Enchilada",
+    "description": "Enchilada with cheese and red sauce",
+    "slug": "enchilada",
+    "price": 850
+  },
+  {
+    "name": "Taco",
+    "description": "Taco with seasoned beef, lettuce, and cheese",
+    "slug": "taco",
+    "price": 850
+  },
+  {
+    "name": "Burrito",
+    "description": "Burrito with seasoned beef, lettuce, and cheese",
+    "slug": "burrito",
+    "price": 850
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Coctel de camarón",
+    "slug": "coctel-de-camaron",
+    "description": "Our fabulous shrimp in a special Mexican cocktail sauce with raw onions, tomato, cilantro, lime juice, jalapeño peppers, and slices of avocado. Served with salted crackers on the side",
+    "price": 1800
+  },
+  {
+    "name": "Veracruz plate",
+    "slug": "veracruz-plate",
+    "description": "Grilled shrimp cooked with mushrooms, onions, tomatoes, with melted cheese on top. Served with rice, beans, and three flour or corn tortillas",
+    "price": 1825
+  },
+  {
+    "name": "Lago especial",
+    "slug": "lago-especial",
+    "description": "Grilled fish cooked with red bell peppers, onions, zucchini, broccoli, and cauliflower. Served with rice, sour cream, lettuce, tomato, and three flour or corn tortillas on the side",
+    "price": 1850
+  },
+  {
+    "name": "Camarón yucatán",
+    "slug": "camaron-yucatan",
+    "description": "Grilled shrimp cooked with red peppers, onions, zucchini, broccoli, and cauliflower. Served with rice, sour cream, lettuce, tomato, and three flour or corn tortillas on the side",
+    "price": 1825
+  },
+  {
+    "name": "Rice with chicken or shrimp",
+    "slug": "rice-with-chicken-or-shrimp",
+    "description": "Grilled chicken or shrimp , served with rice, cream salad, and flour tortillas on the side",
+    "price": {
+      "chicken": 1225,
+      "shrimp": 1725
+    }
+  },
+  {
+    "name": "Brochetas",
+    "slug": "brochetas",
+    "description": "Ten jumbo shrimps, stuffed with cheese, and sliced jalapeños, wrapped in bacon. Served on a bed of mixed veggies, rice, and charro beans",
+    "imgSrc": "/src/assets/menu/brocheta.webp",
+    "price": 1999
+  },
+  {
+    "name": "Al pastor brochetas",
+    "slug": "al-pastor-brochetas",
+    "description": "Marinated grilled pork cooked with pineapple and sautéed vegetables Served with rice and three flour or corn tortillas",
+    "price": 1899
+  }
+]

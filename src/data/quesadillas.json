@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Quesadillas mexicanas",
+    "slug": "quesadillas-mexicanas",
+    "description": "Two flour tortillas grilled and stuffed cheese, one with shredded beef and beans, and one with chicken and refried beans served with lettuce, cheese, sour cream and tomatoes",
+    "price": 1250
+  },
+  {
+    "name": "Quesadillas de fajita",
+    "slug": "quesadillas-de-fajita",
+    "description": "Grilled quesadilla filled with your choice of meat, bell peppers, onions, tomatoes, and cheese, covered with cheese sauce. Served with lettuce, sour cream, tomato, refried beans, and rice",
+    "imgSrc": "/src/assets/menu/quesadilla_fajita.webp",
+    "price": {
+      "chicken": 1450,
+      "steak": 1575,
+      "pastor": 1575,
+      "shrimp": 1650
+    }
+  },
+  {
+    "name": "La gringa",
+    "slug": "la-gringa",
+    "description": "Grilled flour tortilla filled with cheese and al pastor meat with a small portion of cilantro, onion, lime, and our homemade spicy sauce. Served with a side of rice and beans",
+    "price": 1625
+  },
+  {
+    "name": "Quesadilla Popeye's",
+    "slug": "quesadilla-popeyes",
+    "description": "Quesadilla filled with cheese, grilled chicken, grilled onions, and spinach, Covered with cheese sauce. Served with rice, beans, and cream salad",
+    "price": 1575
+  },
+  {
+    "name": "Quesabirrias",
+    "slug": "quesabirrias",
+    "description": "Comprising birria-style cooked beef, folded into a flour tortilla with cheese. Served with a side of broth (consomé) for dipping, cilantro, onions, lime, and our homemade spicy sauce",
+    "price": 1599
+  },
+  {
+    "name": "Quesadilla la chicken tips",
+    "slug": "quesadilla-la-chicken-tips",
+    "description": "Flour tortilla filled with cheese and grilled chicken, covered in cheese sauce. Served with a side of rice and cream salad",
+    "price": 1325
+  }
+]

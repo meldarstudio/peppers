@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Carne asada",
+    "slug": "carne-asada",
+    "description": "Tender grilled steak, served with rice, beans, cream salad, and three flour or corn tortillas",
+    "price": 1699
+  },
+  {
+    "name": "Steak a la mexicana",
+    "slug": "steak-a-la-mexicana",
+    "description": "Ribeye steak grilled to order with bell peppers, onions, and tomatoes. Served with rice, beans, and three flour or corn tortillas",
+    "price": 1799
+  },
+  {
+    "name": "Steak peppers",
+    "slug": "steak-peppers",
+    "description": "Ribeye cooked with onions and mushrooms, topped with five grilled shrimps and cheese. Served with rice, beans, lettuce, sour cream, pico de gallo, and three flour or corn tortillas",
+    "price": 2050
+  },
+  {
+    "name": "Steak oaxaca",
+    "slug": "steak-oaxaca",
+    "description": "Ribeye steak cooked with bacon, poblano peppers, and cheese on top. Served with a side of rice, beans, lettuce, sour cream, tomato, and three flour or corn tortillas",
+    "imgSrc": "/src/assets/menu/steak_oaxaca.webp",
+    "price": 1899
+  },
+  {
+    "name": "Steak maya",
+    "slug": "steak-maya",
+    "description": "A grilled tender steak with a mix of broccoli and cauliflower on top, Served with a side of rice, beans, cream salad, and flour or corn. tortillas",
+    "price": 1850
+  }
+]

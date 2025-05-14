@@ -1,0 +1,88 @@
+---
+import burritos from "~/assets/popular/burritos.webp";
+import tacos from "~/assets/popular/tacos.webp";
+import fajitas from "~/assets/popular/fajitas.webp";
+import { Picture } from "astro:assets";
+
+const popularDishes = [
+  {
+    title: "Fajitas",
+    href: "/menu#fajitas",
+    description:
+      "Sizzling plate with your choice of meat, bell peppers, onions, and a side of rice, and tortillas",
+    img: {
+      src: fajitas,
+      alt: "fajitas on a sizzling plate",
+    },
+  },
+  {
+    title: "Tacos",
+    href: "/menu#tacos",
+    description:
+      "Three tacos with your choice of meat, topped with onions, cilantro, and a side of salsa",
+    img: {
+      src: tacos,
+      alt: "three tacos in a plate",
+    },
+  },
+  {
+    title: "Burritos",
+    href: "/menu#burritos",
+    description:
+      "A large flour tortilla filled with your choice of meat, rice, beans, lettuce, sour cream, shredded cheese, and pico de gallo",
+    img: {
+      src: burritos,
+      alt: "One burrito in a plate",
+    },
+  },
+];
+---
+
+<section class="bg-stone-900 px-4 py-12 md:py-20">
+  <div
+    class="mx-auto flex w-full max-w-6xl flex-col items-center justify-center"
+  >
+    <span
+      class="inline-block rounded-full bg-amber-400 px-3 py-1 text-center text-sm font-semibold tracking-tight text-amber-950"
+      >Popular dishes</span
+    >
+    <h2
+      class="mt-2 text-center text-3xl font-bold tracking-tighter text-pretty text-white md:text-4xl"
+    >
+      Our customer's favorites
+    </h2>
+    <p class="mt-2 max-w-prose text-center text-pretty text-stone-300">
+      Discover the most popular dishes in our restaurant
+    </p>
+    <ul
+      class="mt-6 grid w-full grid-cols-1 gap-4 sm:grid-cols-2 md:mt-8 lg:grid-cols-3"
+    >
+      {
+        popularDishes.map((dish) => (
+          <li class="relative overflow-hidden rounded-md ring-4 ring-transparent hover:ring-amber-400">
+            <a
+              class="absolute inset-0 bg-gradient-to-b from-transparent to-stone-900 opacity-0 transition-all hover:opacity-100"
+              href={dish.href}
+            >
+              <span class="absolute top-2 left-2 rounded-md bg-amber-400 px-2 py-1 text-sm font-medium">
+                {dish.title}
+              </span>
+              <p class="absolute bottom-2 left-2 p-2 text-white">
+                {dish.description}
+              </p>
+            </a>
+            <Picture
+              class="h-full w-full"
+              src={dish.img.src}
+              formats={["webp", "avif"]}
+              height={dish.img.src.height / 3}
+              width={dish.img.src.width / 3}
+              loading="lazy"
+              alt={dish.img.alt}
+            />
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

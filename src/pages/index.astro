@@ -1,16 +1,16 @@
 ---
-
+import Landing from "~/components/landing/Landing.astro";
+import Layout from "~/layouts/Layout.astro";
+import Popular from "~/components/landing/Popular.astro";
+import FindUs from "~/components/landing/FindUs.astro";
+import Order from "~/components/landing/Order.astro";
+import Gallery from "~/components/landing/Gallery.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+  <Landing />
+  <Gallery />
+  <Popular />
+  <FindUs />
+  <Order />
+</Layout>

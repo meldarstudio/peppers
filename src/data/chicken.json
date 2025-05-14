@@ -1,0 +1,32 @@
+[
+  {
+    "name": "El tapatío",
+    "slug": "el-tapatio",
+    "description": "Chicken breast grilled with Mexican sausage, topped with melted cheese. Served with rice, lettuce, sour cream, and three flour or corn tortillas",
+    "price": 1599
+  },
+  {
+    "name": "Pollo loco",
+    "slug": "pollo-loco",
+    "description": "Tender sliced grilled chicken breast, topped with grilled onions and jalapeño. Served with rice, beans, lettuce, sour cream, tomatoes, and three flour or corn tortillas",
+    "price": 1499
+  },
+  {
+    "name": "Pollo encremado",
+    "slug": "pollo-encremado",
+    "description": "Grilled chicken with mushrooms and onions, mixed with sour cream. Served with rice, tossed salad, and three tortillas on the side",
+    "price": 1575
+  },
+  {
+    "name": "Pollo maya",
+    "slug": "pollo-maya",
+    "description": "Grilled chicken breast covered with a special mix of broccoli, cauliflower, and zucchini. Served with rice, lettuce, tomatoes, sour cream, and three flour or corn tortillas",
+    "price": 1599
+  },
+  {
+    "name": "Ángel",
+    "slug": "angel",
+    "description": "One chicken burrito, one chicken enchilada, both topped with lettuce, sour cream, shredded cheese, and tomato. Served with a side of rice",
+    "price": 1299
+  }
+]

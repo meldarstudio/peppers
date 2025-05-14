@@ -1,0 +1,35 @@
+---
+import backgroundImage from "~/assets/hero.webp";
+import { Picture } from "astro:assets";
+import { orderUrl } from "~/constants";
+---
+
+<section class="relative">
+  <h1 class="sr-only">Pepper's Mexican Cuisine</h1>
+  <Picture
+    class="h-svh w-full object-cover object-center"
+    src={backgroundImage}
+    width={backgroundImage.width / 2}
+    height={backgroundImage.height / 2}
+    formats={["webp", "avif"]}
+    loading="eager"
+    decoding="async"
+    alt="Pepper's most popular dishes on a table"
+  />
+  <div class="absolute inset-0 w-full bg-gradient-to-b from-stone-900/40"></div>
+  <article class="absolute right-0 bottom-0 w-fit bg-amber-400 p-4 xl:bottom-8">
+    <div class="flex flex-col gap-2">
+      <p class="text-lg font-semibold sm:text-xl">Authentic Mexican Cuisine</p>
+      <p class="mb-2 max-w-prose text-amber-900">
+        Experience the vibrant flavors of Mexico with every bite. From sizzling
+        fajitas to handcrafted tacos, our dishes are a true taste of tradition.
+      </p>
+      <a
+        href={orderUrl}
+        rel="noopener noreferrer"
+        class="w-full rounded-md bg-amber-700 p-2 px-4 text-center font-semibold text-white transition-colors hover:bg-amber-600 sm:w-fit"
+        >Order Now</a
+      >
+    </div>
+  </article>
+</section>

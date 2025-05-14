@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Nachos supremos",
+    "slug": "nachos-supremos",
+    "description": "Toasted corn tortilla chips, covered with a delicious blend of melted cheese, beef, chicken, and beans. Covered with lettuce, tomatoes, and sour cream",
+    "price": 1450
+  },
+  {
+    "name": "Nachos",
+    "description": "Chips, cheese sauce and your choice of protein and sheredded cheese on top",
+    "slug": "nachos",
+    "price": {
+      "cheese": 850,
+      "beans": 850,
+      "grilled chicken": 1275,
+      "shrimp": 1550,
+      "chicken": 975,
+      "ground beef": 975,
+      "steak": 1225
+    }
+  }
+]

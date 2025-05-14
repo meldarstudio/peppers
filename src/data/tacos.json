@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Avocado tacos",
+    "slug": "avocado-tacos",
+    "description": "Three flour or corn tortillas loaded with fresh avocado slices, topped with cilantro. Served with a side of rice, pico de gallo, and our homemade spicy sauce",
+    "price": 1275
+  },
+  {
+    "name": "Carne asada tacos",
+    "slug": "carne-asada-tacos",
+    "description": "Three soft corn tortillas filled with tender steak. Served with a side of pico de gallo and our homemade spicy sauce",
+    "price": 1425
+  },
+  {
+    "name": "Carnitas tacos",
+    "slug": "carnitas-tacos",
+    "description": "Three soft corn tortillas filled with tender, slow-cooked shredded pork. Served with pico de gallo and spicy homemade sauce",
+    "price": 1425
+  },
+  {
+    "name": "Fish tacos",
+    "slug": "fish-tacos",
+    "description": "Three soft flour tortillas filled with lightly seasoned grilled fish and onions. Served with a side of rice, pico de gallo, and a creamy chipotle sauce",
+    "price": 1575
+  },
+  {
+    "name": "Tacos al pastor",
+    "slug": "tacos-al-pastor",
+    "description": "The original Mexican fusion - guajillo and spices marinated pork, grilled with onions and pineapple. Served with a side of cilantro, onions, limes, and our homemade spicy tomatillo sauce",
+    "price": 1475
+  },
+  {
+    "name": "Tacos supremos",
+    "slug": "tacos-supremos",
+    "description": "Three soft or hard shell tortilla tacos, filled with shredded chicken or ground beef, lettuce, tomato, sour cream, and shredded cheese",
+    "price": 1225
+  },
+  {
+    "name": "Tacos de birria",
+    "slug": "tacos-de-birria",
+    "description": "Three soft corn tortillas filled with birria-style cooked beef. Served with a side of broth (consomé) for dipping, cilantro, onions, lime, and homemade spicy sauce on the side",
+    "imgSrc": "/src/assets/menu/tacos_de_birria.webp",
+    "price": 1499
+  }
+]

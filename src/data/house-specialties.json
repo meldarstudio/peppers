@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Dinner special",
+    "slug": "dinner-special",
+    "description": "Cannot decide? This dinner has a little of everything. One chalupa with cream salad, one chile relleno, one beef taco, one enchilada, and one ground beef burrito served with rice and beans",
+    "price": 1925
+  },
+  {
+    "name": "Taquitos mexicanos",
+    "slug": "taquitos-mexicanos",
+    "description": "Four fried flautas: two shredded beef and two chicken served with lettuce, sour cream and rice",
+    "price": 1225
+  },
+  {
+    "name": "Taco salad",
+    "slug": "taco-salad",
+    "description": "A crispy flour shell tortilla filled with ground beef or chicken, beans, lettuce, tomatoes, cheese, and sour cream",
+    "price": 1175
+  },
+  {
+    "name": "Taco salad fajita",
+    "slug": "taco-salad-fajita",
+    "description": "A crispy fried flour shell tortilla served with grilled chicken or steak, onions, bell peppers, tomatoes and beans. Topped with lettuce, cheese, sliced tomatoes and sour cream",
+    "price": {
+      "chicken": 1275,
+      "steak": 1350,
+      "shrimp": 1499
+    }
+  },
+  {
+    "name": "Chimichangas",
+    "slug": "chimichangas",
+    "description": "Two chimichangas: one chicken and one beef tips, topped with cheese sauce and mild red ranchero sauce, Served with lettuce, sour cream, beans and rice",
+
+    "price": 1299
+  },
+  {
+    "name": "Carnitas",
+    "slug": "carnitas",
+    "description": "Fried pork chunks served with rice, beans, lettuce, sour cream, tomatoes, cheese and three flour tortillas",
+    "price": 1599
+  },
+  {
+    "name": "Nachos fajitas",
+    "slug": "nachos-fajitas",
+    "description": "Nacho chips covered in a blend of melted cheese, grilled chicken or steak, bell peppers, onions, and tomatoes. Topped with lettuce, sour cream and pico de gallo",
+    "price": {
+      "chicken": 1299,
+      "steak": 1450,
+      "shrimp": 1699
+    }
+  },
+  {
+    "name": "Molcajete",
+    "slug": "molcajete",
+    "description": "Steak, chicken, and shrimp grilled with bell peppers, onions, tomatoes, and pineapple. Topped with Monterrey Jack cheese and special read sauce, on a sizzling hot authentic Mexican molcajete. Served with rice, beans, sour cream, lettuce, pico de gallo, and three corn or flour tortillas",
+    "imgSrc": "/src/assets/menu/molcajete.webp",
+    "price": 2125
+  },
+  {
+    "name": "Lalo's special",
+    "slug": "lalos-special",
+    "description": "Grilled chicken breat with grilled onions, pineapple, bacon, and cheese sauce. Served with a side of rice, lettuce, sour cream, shredded cheese, tomato, and three flour tortillas",
+    "price": 1650
+  }
+]

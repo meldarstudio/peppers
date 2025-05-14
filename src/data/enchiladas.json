@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Enchiladas supremas",
+    "slug": "enchiladas-supremas",
+    "description": "A supreme combination featuring one chicken enchilada, one cheese enchilada, one bean enchilada, and one beef enchilada, Topped with mild red or green sauce, cheese, lettuce, tomato, and sour cream. Served with a side of rice",
+    "imgSrc": "/src/assets/menu/enchilada_suprema.webp",
+    "price": 1425
+  },
+  {
+    "name": "Enchiladas rancheras",
+    "slug": "enchiladas-rancheras",
+    "description": "Three cheese enchiladas topped with grilled pork, tomatoes, onions, and bell peppers. Covered with enchilada sauce. Served with lettuce and sour cream",
+    "price": 1425
+  },
+  {
+    "name": "Enchiladas popeye's",
+    "slug": "enchiladas-popeyes",
+    "description": "Three enchiladas filled with grilled chicken, grilled onions, and spinach. Topped with melted cheese with green or red sauce. Served with a side of rice and creamy salad",
+    "price": 1425
+  },
+  {
+    "name": "Enchiladas acapulco",
+    "slug": "enchiladas-acapulco",
+    "description": "Three shrimp enchiladas topped with mild red or green sauce, along with shredded cheese. Served with lettuce, tomatoes, sour cream, and a side of rice",
+    "price": 1599
+  },
+  {
+    "name": "Yolanda's",
+    "slug": "yolandas",
+    "description": "Three chicken enchiladas topped with cheese, your choice of green or red sauce, lettuce, sour cream, tomatoes. Served with a side of Spanish rice",
+    "price": 1399
+  }
+]

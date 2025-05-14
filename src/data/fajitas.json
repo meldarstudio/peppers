@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Chicken fajita",
+    "slug": "chicken-fajita",
+    "description": "Tender grilled chicken served sizzling with sautéed bell peppers, onions, and tomatoes. Comes with rice, beans, lettuce, sour cream, shredded cheese, pico de gallo, an extra tomato slice, and your choice of three flour or corn tortillas"
+  },
+  {
+    "name": "Steak fajita",
+    "slug": "steak-fajita",
+    "description": "Tender grilled steak served sizzling with sautéed bell peppers, onions, and tomatoes. Comes with rice, beans, lettuce, sour cream, shredded cheese, pico de gallo, an extra tomato slice, and your choice of three flour or corn tortillas"
+  },
+  {
+    "name": "Mixed fajita",
+    "slug": "mixed-fajita",
+    "description": "Tender grilled steak and chicken served sizzling with sautéed bell peppers, onions, and tomatoes. Comes with rice, beans, lettuce, sour cream, shredded cheese, pico de gallo, an extra tomato slice, and your choice of three flour or corn tortillas"
+  },
+  {
+    "name": "Shrimp fajita",
+    "slug": "shrimp-fajita",
+    "description": "Tender grilled shrimp served sizzling with sautéed bell peppers, onions, and tomatoes. Comes with rice, beans, lettuce, sour cream, shredded cheese, pico de gallo, an extra tomato slice, and your choice of three flour or corn tortillas"
+  },
+  {
+    "name": "Pork fajita",
+    "slug": "pork-fajita",
+    "description": "Tender grilled pork served sizzling with sautéed bell peppers, onions, and tomatoes. Comes with rice, beans, lettuce, sour cream, shredded cheese, pico de gallo, an extra tomato slice, and your choice of three flour or corn tortillas"
+  },
+  {
+    "name": "Fajita Texana",
+    "slug": "fajita-texana",
+    "description": "Tender grilled steak, chicken, and shrimp served sizzling with sautéed bell peppers, onions, and tomatoes. Comes with rice, beans, lettuce, sour cream, shredded cheese, pico de gallo, an extra tomato slice, and your choice of three flour or corn tortillas",
+    "imgSrc": "/src/assets/menu/fajita_texana.webp"
+  },
+  {
+    "name": "Fajita Hawaiana",
+    "slug": "fajita-hawaiana",
+    "description": "Tender grilled steak, chicken, and shrimp and pineapple served sizzling with sautéed bell peppers, onions, and tomatoes. Comes with rice, beans, lettuce, sour cream, shredded cheese, pico de gallo, an extra tomato slice, and your choice of three flour or corn tortillas",
+    "imgSrc": "/src/assets/menu/fajita_hawaiana.webp"
+  }
+]

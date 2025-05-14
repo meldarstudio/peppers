@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Combo peppers",
+    "slug": "combo-peppers",
+    "description": "A mix of all of our desserts! Can't decide which to order? This ones for you!",
+    "imgSrc": "/src/assets/menu/combo_dessert.webp",
+    "price": 1299
+  },
+  {
+    "name": "Fried ice cream",
+    "slug": "fried-ice-cream",
+    "description": "A generous serving of ice cream coated in a crunchy coating, deep-fried then cradled in a cinnamon sugar dusted tortilla shell. Topped with whipped cream, drizzled with honey, chocolate sauce, caramel sauce, sprinkles, and cherry!",
+    "price": 825
+  },
+  {
+    "name": "Fried cheesecake",
+    "slug": "fried-cheesecake",
+    "description": "creamy cheesecake, wrapped in a flour tortilla, deep-fried to a golden brown, rolled in cinnamon sugar, drizzled with chocolate sauce, caramel sauce, honey, sprinkles and cherry. Served with a side of whipped cream",
+    "price": 799
+  },
+  {
+    "name": "Churros",
+    "slug": "churros",
+    "description": "The traditional Mexican light dough pastry fried to a crispy perfection. and sprinkled with a dusting of cinnamon sugar and drizzled with chocolate sauce, caramel sauce, honey, sprinkles, and cherry. Served with a side of whipped cream.",
+    "price": 675
+  },
+  {
+    "name": "Sopapilla",
+    "slug": "sopapilla",
+    "description": "Our homemade traditional flour tortilla, fried to a golden brown and drizzled with chocolate sauce, caramel sauce, honey, sprinkles, and cherry",
+    "price": 599
+  },
+  {
+    "name": "Flan",
+    "slug": "flan",
+    "description": "A delicious traditional Mexican custard. Homemade, rich, and creamy, with a Smoot delicate sweetness. Drizzled with light chocolate and caramel sauce with sprinkles and a cherry. With a side of whipped cream",
+    "price": 599
+  }
+]
