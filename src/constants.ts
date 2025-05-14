@@ -8,7 +8,7 @@ export const orderUrl =
 export const defaultMeta = {
   title: "Peppers Mexican Cuisine",
   description:
-    "Savor the best Mexican food in Williston, Vermont! From flavorful tacos to fresh guacamole, enjoy an unforgettable culinary experience at our renowned restaurant",
+    "Savor the best Mexican food in Biddeford, Maine! From flavorful tacos to fresh guacamole, enjoy an unforgettable culinary experience at our renowned restaurant",
   ogImagePath: "og.webp",
 };
 
